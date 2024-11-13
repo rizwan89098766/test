@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h3,
+pre {
+    background-color: black;
+    width: 80%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5%;
+    top: 1vh;
+    font-size: 20px;
+    color: white;
+}
+
+header pre {
+    display: inline;
+    border-radius: 20px;
+    background-color: rgb(186, 25, 25);
+    margin-left: 1%;
+    font-size: 18px;
+    position: relative;
+    left: 57%;
+    top: -6vh;
+}
+
+header .fa-arrow-left {
+    font-size: 25px;
+    position: relative;
+    left: 8%;
+    top: -6vh;
+}
+
+header .fa-caret-down {
+    position: relative;
+    left: 55%;
+    top: -6vh;
+}
+
+header .fa-magnifying-glass {
+    position: relative;
+    left: 80%;
+    top: -6vh;
+    font-size: 20px;
+}
+
+main #box {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+    left: 10%;
+    top: -4vh;
+}
+
+main {
+    max-height: 90vh;
+}
+
+main #circle {
+    height: 40vh;
+    width: 10vw;
+    border-radius: 50%;
+    background-image: url(profile.jpg);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    top: -40vh;
+    left: 12%;
+    border: 10px solid black;
+}
+
+main #info {
+    width: 80%;
+    height: 80vh;
+    background-color: black;
+    position: relative;
+    top: -63vh;
+    left: 10%;
+    z-index: 0;
+}
+
+main #info h1 {
+    color: white;
+    position: relative;
+    left: 3%;
+    top: 27vh;
+    font-size: 50px;
+}
+
+main #info a {
+    text-decoration: none;
+    position: relative;
+    top: 30vh;
+    left: 2.5%;
+    color: white;
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+main #info #like {
+    width: 35%;
+    height: 8vh;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 40vh;
+    left: 3%;
+    background-color: rgb(2, 65, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(2, 65, 255);
+}
+
+main #info #msg {
+    width: 45%;
+    height: 8vh;
+    position: relative;
+    top: 40vh;
+    left: 4.5%;
+    border-radius: 10px;
+    background-color: rgb(56, 51, 51);
+    color: white;
+    font-size: 20px;
+    background-color: rgb(56, 51, 51);
+    border: 1px solid rgb(56, 51, 51);
+}
+
+main #info #dot {
+    width: 11%;
+    height: 8vh;
+    position: relative;
+    top: 40vh;
+    left: 5.5%;
+    border-radius: 10px;
+    background-color: rgb(56, 51, 51);
+    color: white;
+    font-size: 20px;
+    background-color: rgb(56, 51, 51);
+    border: 1px solid rgb(56, 51, 51);
+}
+
+@media screen and (min-width: 480px) {
+
+    header h3,
+    pre {
+        background-color: black;
+        width: 80%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 10%;
+        font-size: 10px;
+        color: white;
+    }
+
+    header pre {
+        display: inline;
+        border-radius: 20px;
+        background-color: rgb(186, 25, 25);
+        margin-left: 1%;
+        font-size: 10px;
+        position: relative;
+        left: 59%;
+        top: -4.5vh;
+    }
+
+    header .fa-arrow-left {
+        font-size: 15px;
+        position: relative;
+        left: 8%;
+        top: -4.5vh;
+    }
+
+    header .fa-caret-down {
+        position: relative;
+        left: 56%;
+        top: -4vh;
+        font-size: 15px;
+    }
+
+    header .fa-magnifying-glass {
+        position: relative;
+        left: 75%;
+        top: -4.5vh;
+        font-size: 10px;
+    }
+
+    main #info {
+        width: 80%;
+        height: 60vh;
+        background-color: black;
+        position: relative;
+        top: -63vh;
+        left: 10%;
+        z-index: 0;
+    }
+    main #box {
+        width: 80%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-image: url(cover.jpg);
+        background-size: cover;
+        z-index: 0;
+        position: relative;
+        left: 10%;
+        top: -3vh;
+    }
+    main #info h1 {
+        color: white;
+        position: relative;
+        left: 3%;
+        top: 15vh;
+        font-size: 25px;
+    }
+    main #circle {
+        height: 30vh;
+        width: 30vw;
+        border-radius: 50%;
+        background-image: url(profile.jpg);
+        background-size: cover;
+        z-index: 1;
+        position: relative;
+        top: -50vh;
+        left: 12%;
+        border: 5px solid black;
+    }
+    main #info a {
+        text-decoration: none;
+        position: relative;
+        top: 17vh;
+        left: 2.5%;
+        color: white;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    main #info p {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 18vh;
+        left: 4%;
+        font-family: monospace;
+    }
+    main #info #like {
+        width: 30%;
+        height: 7vh;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: 20vh;
+        left: 3%;
+        background-color: rgb(2, 65, 255);
+        border-radius: 10px;
+        border: 1px solid rgb(2, 65, 255);
+    }
+    main #info #msg {
+        width: 45%;
+        height: 7vh;
+        position: relative;
+        top: 20vh;
+        left: 4.5%;
+        border-radius: 10px;
+        background-color: rgb(56, 51, 51);
+        color: white;
+        font-size: 20px;
+        background-color: rgb(56, 51, 51);
+        border: 1px solid rgb(56, 51, 51);
+    }
+    main #info #dot {
+        width: 11%;
+        height: 7vh;
+        position: relative;
+        top: 20vh;
+        left: 5.5%;
+        border-radius: 10px;
+        background-color: rgb(56, 51, 51);
+        color: white;
+        font-size: 20px;
+        background-color: rgb(56, 51, 51);
+        border: 1px solid rgb(56, 51, 51);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Header Styling */
+    header h3, pre {
+        background-color: black;
+        width: 60%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 20%;
+        font-size: 16px;
+        color: white;
+    }
+
+    header pre {
+        display: inline;
+        border-radius: 20px;
+        background-color: rgb(186, 25, 25);
+        margin-left: 1%;
+        font-size: 16px;
+        position: relative;
+        left: 60%;
+        top: -6vh;
+    }
+
+    header .fa-arrow-left {
+        font-size: 20px;
+        position: relative;
+        left: 18%;
+        top: -6vh;
+    }
+
+    header .fa-caret-down {
+        position: relative;
+        left: 60%;
+        top: -5vh;
+        font-size: 20px;
+    }
+
+    header .fa-magnifying-glass {
+        position: relative;
+        left: 80%;
+        top: -6vh;
+        font-size: 16px;
+    }
+
+    /* Main Section Styling */
+    main #info {
+        width: 60%;
+        height: 60vh;
+        background-color: black;
+        position: relative;
+        top: -65vh;
+        left: 20%;
+        z-index: 0;
+    }
+
+    main #box {
+        width: 60%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-image: url(cover.jpg);
+        background-size: cover;
+        z-index: 0;
+        position: relative;
+        left: 20%;
+        top: -5vh;
+    }
+
+    main #info h1 {
+        color: white;
+        position: relative;
+        left: 5%;
+        top: 18vh;
+        font-size: 35px;
+    }
+
+    main #circle {
+        height: 40vh;
+        width: 20vw;
+        border-radius: 50%;
+        background-image: url(profile.jpg);
+        background-size: cover;
+        z-index: 1;
+        position: relative;
+        top: -55vh;
+        left: 22%;
+        border: 5px solid black;
+    }
+
+    main #info a {
+        text-decoration: none;
+        position: relative;
+        top: 20vh;
+        left: 3%;
+        color: white;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    main #info p {
+        color: white;
+        font-size: 24px;
+        position: relative;
+        top: 22vh;
+        left: 5%;
+        font-family: monospace;
+    }
+
+    main #info #like {
+        width: 25%;
+        height: 8vh;
+        font-size: 22px;
+        color: white;
+        position: relative;
+        top: 25vh;
+        left: 5%;
+        background-color: rgb(2, 65, 255);
+        border-radius: 10px;
+        border: 1px solid rgb(2, 65, 255);
+    }
+
+    main #info #msg {
+        width: 40%;
+        height: 8vh;
+        position: relative;
+        top: 25vh;
+        left: 6%;
+        border-radius: 10px;
+        background-color: rgb(56, 51, 51);
+        color: white;
+        font-size: 22px;
+        border: 1px solid rgb(56, 51, 51);
+    }
+
+    main #info #dot {
+        width: 10%;
+        height: 8vh;
+        position: relative;
+        top: 25vh;
+        left: 8%;
+        border-radius: 10px;
+        background-color: rgb(56, 51, 51);
+        color: white;
+        font-size: 22px;
+        border: 1px solid rgb(56, 51, 51);
+    }
+}
